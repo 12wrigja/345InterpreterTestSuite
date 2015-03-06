@@ -1,4 +1,4 @@
-(load "jow5_project1.scm")
+(load "jow5_project2.scm")
 
 (define runtests
     (lambda (current count)
