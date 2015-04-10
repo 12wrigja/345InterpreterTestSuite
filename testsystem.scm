@@ -1,7 +1,7 @@
-(load "jow5_project2.scm")
+(load "jow5_project3.scm")
 
 (define runtests
-    (lambda (current count)
+    (lambda (directory current count)
        (cond
          ((> current count) (display "Finished"))
          (else 
@@ -16,5 +16,9 @@
                                        ((number? val) (number->string val))
                                        ((symbol? val) (symbol->string val))
                                        (else val)))
-                                  (interpret (string-append "tests/test" (number->string current) ".lang")))
-                                  "\n"))) (runtests (+ current 1) count)))))
+                                  (interpret (string-append directory "/test" (number->string current) ".lang")))
+                                  "\n"))) (runtests directory (+ current 1) count)))))
+
+(define runfntests
+    (lambda (current count)
+       (runtests "fntests" current count)))
