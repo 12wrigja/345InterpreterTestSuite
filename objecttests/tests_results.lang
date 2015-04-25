@@ -1,0 +1,87 @@
+1.
+
+(interpret "objecttests/test1.lang" 'A) ;expected result is 20
+
+2.
+
+(interpret "objecttests/test2.lang" 'Square) ;expected result is 400
+
+3.
+
+(interpret "objecttests/test3.lang" 'B) ;expected result is 530
+
+4.
+
+(interpret "objecttests/test4.lang" 'B) ;expected result is 615
+
+5.
+
+(interpret "objecttests/test5.lang" 'C) ;expected result is -716
+
+6.
+
+(interpret "objecttests/test6.lang" 'A) ;expected result is 15
+
+7.
+
+(interpret "objecttests/test7.lang" 'A) ;expected result is 12
+
+8.
+
+(interpret "objecttests/test8.lang" 'A) ;expected result is 110
+
+9.
+
+(interpret "objecttests/test9.lang" 'A) ;expected result is 125
+
+10.
+
+(interpret "objecttests/test10.lang" 'A) ;expected result is 36
+
+11.
+
+(interpret "objecttests/test11.lang" 'A) ;expected result is 54
+
+12.
+
+(interpret "objecttests/test12.lang" 'C) ;expected result is 26
+
+13.
+
+(interpret "objecttests/test13.lang" 'Square) ;expected result is 117
+
+14.
+
+(interpret "objecttests/test14.lang" 'Square) ;expected result is 32
+
+15.
+
+(interpret "objecttests/test15.lang" 'List) ;expected result is 15
+
+16.
+
+(interpret "objecttests/test16.lang" 'Box) ;expected result is 16
+
+17.
+
+(interpret "objecttests/test17.lang" 'List) ;expected result is 123456
+
+18.
+
+(interpret "objecttests/test18.lang" 'List) ;expected result is 5285
+
+19.
+
+(interpret "objecttests/test19.lang" 'A) ;expected result is 100
+
+20.
+
+(interpret "objecttests/test20.lang" 'A) ;expected result is 420
+
+21.
+
+(interpret "objecttests/test21.lang" 'A) ;expected result is 10
+
+22.
+
+(interpret "objecttests/test22.lang" 'A) ;expected result is error for “no this”
