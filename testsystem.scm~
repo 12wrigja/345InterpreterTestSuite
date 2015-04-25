@@ -1,4 +1,4 @@
-(load "Interpreter3.rkt")
+(load "jow5_project3.scm")
 
 (define runtests
     (lambda (directory current count)
